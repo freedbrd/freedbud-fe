@@ -4,11 +4,13 @@ import { MainLayoutComponent } from './main-layout.component';
 import { MainLayoutRoutingModule } from './main-layout-routing.module';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SharedModule } from '../shared/shared.module';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     MainLayoutComponent,
-    SidebarComponent
+    SidebarComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
