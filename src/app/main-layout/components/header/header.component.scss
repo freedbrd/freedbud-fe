@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+
+  > span {
+    font-size: 10px;
+  }
+}
