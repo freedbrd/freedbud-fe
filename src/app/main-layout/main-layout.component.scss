@@ -3,23 +3,4 @@
   height: 100%;
 }
 
-nz-header {
-  color: #F4F5FA;
-  font-weight: 500;
-  font-size: 20px;
 
-  span {
-    position: relative;
-
-    &:after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: -14px;
-      width: 4px;
-      height: 30px;
-      background: #fd7a6b;
-      transform: translateY(-50%);
-    }
-  }
-}
