@@ -1,0 +1,11 @@
+ul[nz-menu] {
+  li {
+    color: #dcdcdc;
+    padding: 8px 15px;
+    transition: .5s ease all;
+
+    &:hover, &.active {
+      color: #fff;
+    }
+  }
+}
