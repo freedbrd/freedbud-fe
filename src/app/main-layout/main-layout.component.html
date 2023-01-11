@@ -1,1 +1,14 @@
-<router-outlet></router-outlet>
+<nz-layout>
+  <nz-sider nzWidth="260px">
+    <nz-header>
+      <span>FreedBudget</span>
+    </nz-header>
+    <app-sidebar></app-sidebar>
+  </nz-sider>
+  <nz-layout>
+    <nz-content>
+      <router-outlet></router-outlet>
+    </nz-content>
+    <nz-footer>Footer</nz-footer>
+  </nz-layout>
+</nz-layout>
