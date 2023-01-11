@@ -1,0 +1,39 @@
+header {
+  color: #F4F5FA;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0 50px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -14px;
+      width: 4px;
+      height: 30px;
+      background: #fd7a6b;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+ul[nz-menu] {
+  background: transparent;
+
+  li {
+    color: #dcdcdc;
+    padding: 8px 15px;
+    transition: .5s ease all;
+
+    &:hover, &.active {
+      color: #fff;
+    }
+  }
+}
